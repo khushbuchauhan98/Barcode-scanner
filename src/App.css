@@ -14,12 +14,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-#barcode-scanne{
- margin: 0 auto;
-}
+
 canvas{
-  margin: 0 auto;
-  width: 2px;
+  /* margin: 0 auto; */
+  /* width: 50px; */
+  /* height: 200px; */
+  display: none;
 }
 .App-header {
   background-color: #282c34;
@@ -34,11 +34,12 @@ canvas{
 .btn{
   border: none;
   background-color: black;
-  padding: 16px;
-  margin-left: 20px;
-  border-radius: 12px;
+  padding: 7px;
+  margin-right: 10px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
+  margin-top: 20px;
 }
 .App-link {
   color: #61dafb;
